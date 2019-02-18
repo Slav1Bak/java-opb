@@ -3,7 +3,7 @@ import model.Auto;
 public class Main {
     public static void main(String[] args) {
         //utworzenie obiektu klasy
-        Auto a1 = new Auto();
+   /*     Auto a1 = new Auto();
         //odwolanie do pol klasowych -> obiekt.pole
         System.out.println("Brand: " + a1.brand);
         System.out.println("Model: " + a1.model);
@@ -23,5 +23,31 @@ public class Main {
 
         System.out.println(a1);
 
+        //utworzenie drugiego obiektu
+
+        Auto a2 = new Auto();
+        System.out.println(a2);
+        a2.setPrice(100000);
+        System.out.println(a2);
+        System.out.println(a2.getPrice());
+        System.out.println(a2.getPriceWithTax(23));
+        */
+        Auto a3 = new Auto("VW",
+                "Passat",
+                2019,
+                "silver",
+                "diesel",
+                150000,
+                'D');
+        System.out.println(a3);
+
+        Auto a4 = new Auto("Audi",
+                "A4",
+                2017,
+                "Red",
+                "PB",
+                120000,
+                'D');
+        System.out.println(a4);
     }
 }
