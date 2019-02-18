@@ -37,7 +37,7 @@ public class Carview {
                     flag = false;
                     break;
                 default:
-                    System.out.println("Błedny wybor frajerze");
+                    System.out.println("\n\t! ! ! Błedny wybor frajerze ! ! !\n");
             }
 
         }
