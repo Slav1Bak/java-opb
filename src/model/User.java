@@ -8,6 +8,14 @@ public class User {
     private LocalDate birth_day;
     private LocalDateTime registration_date_time;
 
+    //..........................................
+    //dodajemy godzine rejestracji
+ //   public LocalDateTime changeHour (int value){
+  //      this.registration_date_time.plusHours(value);
+   //     return registration_date_time;
+   // }
+    //.....................................
+
     public User(String name, String lastname, String login, String password, String email, String phone, LocalDate birth_day, LocalDateTime registration_date_time) {
         this.name = name;
         this.lastname = lastname;
