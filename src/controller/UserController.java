@@ -34,6 +34,7 @@ public class UserController {
     }
 
     //sprtowanie po roku urodzenia
+    //...
     public void sortByBirthdate() {
         for (int j = 0; j < index; j++) {
             for (int i = 1; i < index; i++) {
