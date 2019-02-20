@@ -14,6 +14,11 @@ public class RegExpController {
         System.out.println(rec.checkPostalCode("82-x32"));
         System.out.println(rec.checkPostalCode("82-92"));
         System.out.println(rec.checkPostalCode("82x932"));
-
+int a = 10;
+        System.out.println(a++ + a);
+        int dystans = 12345;
+        double km=0;
+        System.out.println(dystans/1_000);
     }
+
 }
